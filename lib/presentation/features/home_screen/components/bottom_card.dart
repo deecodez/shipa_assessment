@@ -1,16 +1,16 @@
 import 'package:shipa_tracking/lib.dart';
 
-class BottomCard extends StatelessWidget {
+class BottomCard extends ConsumerWidget {
   const BottomCard({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    // final size = MediaQuery.of(context).size;
+  Widget build(BuildContext context, WidgetRef ref) {
+    final eta = ref.watch(etaProvider);
     return Align(
       alignment: Alignment.bottomCenter,
       child: Container(
         width: double.infinity,
-        // constraints: BoxConstraints(maxHeight: size.height * 0.3),
+
         padding: EdgeInsets.only(
           bottom: 10.h,
           top: 15.h,
@@ -35,10 +35,12 @@ class BottomCard extends StatelessWidget {
                   size: 20.sp,
                 ),
                 XBox(8),
-                //TODO: Replace with actual estimated delivery time
+
                 Expanded(
                   child: AppText.body(
-                    'The package is estimated to arrive within the next 25 minutes',
+                    eta.arrived
+                        ? 'Your package has arrived at its destination'
+                        : 'The package is estimated to arrive within the next ${eta.formatted}',
                     fontSize: 12.sp,
                     textColor: AppColors.textColor.withValues(alpha: 0.9),
                   ),
@@ -80,7 +82,3 @@ class BottomCard extends StatelessWidget {
     );
   }
 }
-
-
-
-

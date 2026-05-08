@@ -9,8 +9,4 @@ class ThemeNotifier extends StateNotifier<ThemeData> {
 
   ThemeNotifier(this.ref) : super(buildLightTheme());
 
-  // void setTheme() {
-
-  //   state = buildLightTheme();
-  // }
 }
