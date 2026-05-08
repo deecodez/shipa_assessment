@@ -1,17 +1,59 @@
-# shipa_tracking
+# Shipa Tracking 🛵
 
-A new Flutter project.
+A real-time rider tracking app built with Flutter, featuring location updates, smooth marker animation, and ETA calculation.
 
-## Getting Started
+## 📲 Download
 
-This project is a starting point for a Flutter application.
+[![Github Release](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/deecodez/shipa_assessment/releases/download/v1.0.0/app-release.apk)
 
-A few resources to get you started if this is your first Flutter project:
+[![Google Drive](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://drive.google.com/drive/folders/1acmZJPPg2Up8nGFLq2gmqvYUk-5i8SnK?usp=sharing)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+> Requires Android 6.0 (API 23) or higher
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Features
+
+- Rider location tracking via stream
+- Smooth marker animation along the polyline route
+- Real-time ETA countdown in minutes
+- Staircase polyline with sharp mitered joints
+- Custom rider and destination markers
+- Auto camera tracking that follows the rider
+
+## 🛠 Tech Stack
+
+- **Flutter** — UI framework
+- **Riverpod** — state management
+- **Google Maps Flutter** — map rendering
+- **StreamProvider** — real-time location stream
+
+## 🏗 Architecture
+
+- MVVM
+
+## 🚀 Run Locally
+
+1. Clone the repo
+
+```bash
+   git clone https://github.com/deecodez/shipa_assessment.git
+   cd YOUR_REPO
+```
+
+2. Install dependencies
+
+```bash
+   flutter pub get
+```
+
+3. Run the app
+
+```bash
+   flutter run
+```
+
+## 📸 Screenshots
+
+
+| Map View                     
+| ----------------------------- 
+| ![map](screenshots/shipa.png)
