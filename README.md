@@ -4,9 +4,9 @@ A real-time rider tracking app built with Flutter, featuring location updates, s
 
 ## 📲 Download
 
-[![Github Release](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/deecodez/shipa_assessment/releases/download/v1.0.0/app-release.apk)
+Github Release: [![Github Release](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/deecodez/shipa_assessment/releases/download/v1.0.0/app-release.apk)
 
-[![Google Drive](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://drive.google.com/drive/folders/1acmZJPPg2Up8nGFLq2gmqvYUk-5i8SnK?usp=sharing)
+Google Drive: [![Google Drive](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://drive.google.com/drive/folders/1acmZJPPg2Up8nGFLq2gmqvYUk-5i8SnK?usp=sharing)
 
 > Requires Android 6.0 (API 23) or higher
 
@@ -53,7 +53,6 @@ A real-time rider tracking app built with Flutter, featuring location updates, s
 
 ## 📸 Screenshots
 
-
-| Map View                     
-| ----------------------------- 
+| Map View  
+| -----------------------------
 | ![map](screenshots/shipa.png)
